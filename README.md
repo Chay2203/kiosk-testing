@@ -2,7 +2,7 @@
 
 Build the project from source:
 
-1. Clone the intandem repository:
+1. Clone the repository:
 ```sh
 ❯ git clone https://github.com/Chay2203/kiosk-testing
 ```
