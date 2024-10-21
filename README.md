@@ -38,5 +38,3 @@ Backend
 ```sh
 ❯ node index.js
 ```
-
-enjoy!
