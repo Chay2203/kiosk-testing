@@ -4,7 +4,7 @@ Build the project from source:
 
 1. Clone the intandem repository:
 ```sh
-❯ git clone https://https://github.com/Chay2203/kiosk-testing
+❯ git clone https://github.com/Chay2203/kiosk-testing
 ```
 
 2. Navigate to the frontend directory:
