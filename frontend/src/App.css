@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+/* General button styling */
+.MuiButton-root, .bluetooth-button {
+  font-family: 'Arial', sans-serif; /* Change the font family */
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #1976d2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Bluetooth button specific hover effect */
+.bluetooth-button:hover, .MuiButton-root:hover {
+  background-color: #125ea4;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: white; /* Ensure text stays white on hover */
+}
+
+.bluetooth-button:active, .MuiButton-root:active {
+  background-color: #0e4b84;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
